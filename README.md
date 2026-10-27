@@ -11,6 +11,10 @@
 
 Music from YouTube Music, streamed and visualized entirely in your terminal. Linux only.
 
+![Now Playing: sharp cover art, big clock and the mirror visualizer](docs/now-playing.png)
+
+![Search: results, cover art and visualizer side by side](docs/search.png)
+
 - **Search YouTube Music**: songs, videos, albums and playlists, with infinite scroll. You can also paste a YouTube or YouTube Music link.
 - **Queue, radio and autoplay**: `r` builds a radio from any song. When the queue runs out, autoplay keeps adding similar songs.
 - **Real visualizers**: an FFT of the audio you're actually hearing, in seven styles: bars, LED matrix, mirror, ASCII rain, waveform, radial and stereo scope.
@@ -44,7 +48,7 @@ Music from YouTube Music, streamed and visualized entirely in your terminal. Lin
 2. Clone and install. This needs no root and no Gradle:
 
    ```sh
-   git clone REPO_URL
+   git clone https://github.com/jay6869/melo.git
    cd melo
    ./install.sh
    ```
